@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Agency</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="min-h-screen bg-[#00B140] text-white font-sans selection:bg-zinc-900 selection:text-white">
+
+  <nav class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center relative">
+    <div class="flex items-center space-x-2">
+      <span class="font-extrabold text-xl tracking-wider uppercase text-white">
+        DIGITAL AGENCY
+      </span>
+    </div>
+
+    <div class="hidden md:flex space-x-10 text-sm font-medium lowercase opacity-90">
+      <a href="#home" class="hover:opacity-100 transition">home</a>
+      <a href="#about" class="hover:opacity-100 transition">about</a>
+      <a href="#testimonials" class="hover:opacity-100 transition">testimonials</a>
+      <a href="#contact" class="hover:opacity-100 transition">contact</a>
+    </div>
+
+    <div class="md:hidden">
+      <input type="checkbox" id="menu-toggle" class="peer hidden" />
+      
+      <label for="menu-toggle" class="cursor-pointer p-2 block text-white focus:outline-none">
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+          <path fill-rule="evenodd" d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z" />
+        </svg>
+      </label>
+
+      <div class="hidden peer-checked:flex absolute top-20 left-6 right-6 bg-zinc-900/95 backdrop-blur-md rounded-2xl p-6 flex-col space-y-4 text-center z-50 shadow-2xl">
+        <a href="#home" class="hover:text-emerald-400 py-1 lowercase">home</a>
+        <a href="#about" class="hover:text-emerald-400 py-1 lowercase">about</a>
+        <a href="#testimonials" class="hover:text-emerald-400 py-1 lowercase">testimonials</a>
+        <a href="#contact" class="hover:text-emerald-400 py-1 lowercase">contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="max-w-7xl mx-auto px-6 py-12 lg:py-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div class="space-y-6 text-center md:text-left">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight [-webkit-text-stroke:1px_black] ">
+        Building Digital Products, Brands &amp; Experience
+      </h1>
+      <p class="text-base sm:text-lg opacity-90 max-w-lg mx-auto md:mx-0 font-normal">
+        Digital Agency Is Your Online Team Management Tool That Easy And Prompt
+      </p>
+      <div class="pt-2">
+        <a href="#contact" class="inline-block bg-[#191414] hover:bg-black text-white font-bold px-8 py-3.5 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5">
+          CONTACT US
+        </a>
+      </div>
+    </div>
+    <div class="flex justify-center items-center px-6 py-3">
+      <img src="imgs/business-people-discussing-business-idea.png" alt="Hero Illustration" class="max-w-full h-auto max-h-[420px] object-contain drop-shadow-2xl" />
+    </div>
+  </section>
+
+ <div class="flex justify-center items-center">
+      <img src="imgs/Companies Section.png" alt="Hero Illustration" class="max-w-full h-auto max-h-[420px] object-contain drop-shadow-2xl" />
+    </div>
+  </section>
+
+  <section id="about" class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div class="flex justify-center order-2 md:order-1">
+      <img src="imgs/designer-team-working-on-creative-design.png" alt="Branding Team Illustration" class="max-w-full h-auto max-h-[380px] object-contain drop-shadow-xl" />
+    </div>
+    <div class="space-y-4 text-center md:text-left order-1 md:order-2">
+      <h2 class="text-3xl sm:text-4xl font-extrabold leading-tight">
+        Branding &amp; Design System
+      </h2>
+      <p class="text-sm sm:text-base opacity-90 leading-relaxed max-w-md mx-auto md:mx-0">
+        Commonly Used In The Graphic, Print &amp; Publishing Industries For Previewing Visual Layout And Mockups
+      </p>
+    </div>
+  </section>
+
+  <section id="testimonials" class="max-w-7xl mx-auto px-6 py-16 text-center">
+    <h2 class="text-3xl sm:text-4xl font-extrabold mb-12">
+      Custome &amp; Plugin Development
+    </h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white text-zinc-900 p-8 rounded-3xl text-left shadow-2xl hover:shadow-2xl transition transform hover:-translate-y-1">
+        <div class="w-14 h-14 bg-amber-100 rounded-2xl flex items-center justify-center mb-6">
+          <img src="imgs/website-4943 1.png" alt="Website Design" class="w-8 h-8 object-contain" />
+        </div>
+        <h3 class="font-bold text-base tracking-wide mb-3 text-zinc-800 uppercase">
+          WEBSITE DESIGN
+        </h3>
+        <p class="text-xs text-zinc-500 leading-relaxed">
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+      </div>
+
+      <div class="bg-white text-zinc-900 p-8 rounded-3xl text-left shadow-2xl hover:shadow-2xl transition transform hover:-translate-y-1">
+        <div class="w-14 h-14 bg-orange-100 rounded-2xl flex items-center justify-center mb-6">
+          <img src="Parcial/imgs/computer-6823 1.png" alt="Web Development" class="w-8 h-8 object-contain" />
+        </div>
+        <h3 class="font-bold text-base tracking-wide mb-3 text-zinc-800 uppercase">
+          WEB DEVELOPMENT
+        </h3>
+        <p class="text-xs text-zinc-500 leading-relaxed">
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+      </div>
+
+      <div class="bg-white text-zinc-900 p-8 rounded-3xl text-left shadow-2xl hover:shadow-2xl transition transform hover:-translate-y-1">
+        <div class="w-14 h-14 bg-sky-100 rounded-2xl flex items-center justify-center mb-6">
+          <img src="imgs/mobile-phone-1164 1.png" alt="Mobile App Development" class="w-8 h-8 object-contain" />
+        </div>
+        <h3 class="font-bold text-base tracking-wide mb-3 text-zinc-800 uppercase">
+          MOBILE APP DEVELOPMENT
+        </h3>
+        <p class="text-xs text-zinc-500 leading-relaxed">
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="max-w-6xl mx-auto px-6 py-16">
+    <div class="bg-[#808080] backdrop-blur-sm rounded-3xl p-8 sm:p-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center shadow-xl">
+      <div class="flex justify-center">
+        <img src="imgs/customer-support.png" alt="Customer Support" class="max-w-full h-auto max-h-[260px] object-contain drop-shadow-lg" />
+      </div>
+      <div class="space-y-4 text-center md:text-left">
+        <h2 class="text-3xl sm:text-4xl font-extrabold leading-tight">
+          Be a part of the next big thing
+        </h2>
+        <p class="text-x sm:text-sm opacity-90 leading-relaxed max-w-sm mx-auto md:mx-0">
+          We work with Brands, Startups, to SMEs. Collaborate for more impact and growth.
+        </p>
+        <div class="pt-2">
+          <a href="#" class="inline-block bg-[#008000] hover:bg-black text-white font-bold px-8 py-3.5 rounded-xl text-xs sm:text-sm tracking-wider uppercase transition shadow-lg">
+            CONTACT US
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-[#808080] text-zinc-300 py-16 mt-12 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-xs">
+      <div class="space-y-3">
+        <h4 class="font-bold text-white text-sm tracking-wide">Digital Agency</h4>
+        <p class="opacity-70 leading-relaxed">
+          Building Digital Products, Brands &amp; Experience
+        </p>
+      </div>
+
+      <div class="space-y-3">
+        <h4 class="font-bold text-white text-sm tracking-wide">Resources</h4>
+        <ul class="space-y-2 opacity-80">
+          <li><a href="#" class="hover:text-white transition">Guides</a></li>
+          <li><a href="#" class="hover:text-white transition">Blog</a></li>
+          <li><a href="#" class="hover:text-white transition">Customer Stories</a></li>
+          <li><a href="#" class="hover:text-white transition">Glossary</a></li>
+        </ul>
+      </div>
+
+      <div class="space-y-3">
+        <h4 class="font-bold text-white text-sm tracking-wide">Company</h4>
+        <ul class="space-y-2 opacity-80">
+          <li><a href="#" class="hover:text-white transition">About Us</a></li>
+          <li><a href="#" class="hover:text-white transition">Careers</a></li>
+          <li><a href="#" class="hover:text-white transition">Partners</a></li>
+          <li><a href="#" class="hover:text-white transition">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="space-y-3">
+        <h4 class="font-bold text-white text-sm tracking-wide">Social Media</h4>
+        <ul class="space-y-2 opacity-80">
+          <li><a href="#" class="hover:text-white transition">Linkedin</a></li>
+          <li><a href="#" class="hover:text-white transition">Facebook</a></li>
+          <li><a href="#" class="hover:text-white transition">Instagram</a></li>
+          <li><a href="#" class="hover:text-white transition">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+</html>

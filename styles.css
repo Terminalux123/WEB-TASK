@@ -1,0 +1,10 @@
+@layer base {
+  body {
+    background-color: #00B140;
+    color: #ffffff;
+  }
+}
+
+#menu-toggle:checked ~ div {
+  display: flex;
+}
